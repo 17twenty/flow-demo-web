@@ -71,10 +71,10 @@ agents:
 followups:
   labels: [flow-followup]
   owners:
-    default: ${pending:owners.default}
-    tracker_admin: ${pending:owners.tracker_admin}
-    forge_admin: ${pending:owners.forge_admin}
-    platform: ${pending:owners.platform}
+    default: 17twenty
+    tracker_admin: 17twenty
+    forge_admin: 17twenty
+    platform: 17twenty
 
 attestation:
   default_ttl: 30d
