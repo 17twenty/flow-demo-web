@@ -3,8 +3,51 @@ version: 1
 flow_version: dev
 config_hash: sha256:aeb36e65cdd033de008dc0da9af34c7d065171e77d5d9c3261c7db348927c87b
 resolved:
+  followups.owners.default: 17twenty
+  followups.owners.forge_admin: 17twenty
+  followups.owners.platform: 17twenty
+  followups.owners.tracker_admin: 17twenty
   tracker.project: "6"
 observed:
   tracker.project:
     hash: sha256:efbe310a520b66143ef0d1cd97c8382cfc76b021371fabfb9c9c9a33608e5b4e
     at: 2026-10-27T23:04:50Z
+created:
+  - kind: forge.required_status
+    name: flow/policy
+    at: 2026-10-27T23:06:07Z
+  - kind: tracker.status_option
+    id: 0e8fa1da
+    name: Backlog
+    at: 2026-10-27T23:05:55Z
+  - kind: tracker.status_option
+    id: 3bcf6e7d
+    name: In review
+    at: 2026-10-27T23:06:00Z
+  - kind: tracker.status_option
+    id: c1893840
+    name: Ready
+    at: 2026-10-27T23:06:03Z
+followups:
+  - check: deploys.source
+    ticket: '#10'
+    owner: 17twenty
+    opened_at: 2026-10-27T23:06:16Z
+    nudged_at: 2026-10-27T23:06:16Z
+    state: open
+  - check: forge.merge_settings
+    ticket: '#3'
+    opened_at: 2026-10-27T23:06:12Z
+    state: closed
+  - check: forge.protection
+    ticket: '#1'
+    opened_at: 2026-10-27T23:06:11Z
+    state: closed
+  - check: forge.required_status
+    ticket: '#2'
+    opened_at: 2026-10-27T23:06:11Z
+    state: closed
+  - check: forge.squash_text
+    ticket: '#4'
+    opened_at: 2026-10-27T23:06:12Z
+    state: closed
