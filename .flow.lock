@@ -3,6 +3,10 @@ version: 1
 flow_version: dev
 config_hash: sha256:aeb36e65cdd033de008dc0da9af34c7d065171e77d5d9c3261c7db348927c87b
 resolved:
+  followups.owners.default: 17twenty
+  followups.owners.forge_admin: 17twenty
+  followups.owners.platform: 17twenty
+  followups.owners.tracker_admin: 17twenty
   tracker.project: "6"
 observed:
   tracker.project:
