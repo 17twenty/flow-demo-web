@@ -51,3 +51,10 @@ followups:
     ticket: '#4'
     opened_at: 2026-10-27T23:06:12Z
     state: closed
+attestations:
+  - check: tracker.native.changes_requested
+    by: 17twenty
+    note: 17twenty switched on the board's 'Code changes requested' workflow, set to In progress, and 'Auto-add to project' on 2026-10-28
+    at: 2026-10-28T02:14:11Z
+    expires_at: 2026-11-27T02:14:11Z
+    inputs: sha256:eeb8e7eb9e56eeacf8ce7df64b539b26f66a5d4a7f040071843ac91463f58027
