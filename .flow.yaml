@@ -52,7 +52,7 @@ commits:
 
 deploys:
   source: forge_deployments       # forge_deployments | commit_status | none
-  environment: production         # name as recorded by the deployer
+  environment: github-pages       # name as recorded by the deployer
   # commit_status only: contexts: ['argocd/app-prod']   (exact names or prefix*)
   max_lag: 2h                     # doctor: merged → deployed SLO
   max_age: 7d                     # doctor: warn if no deployment seen in this window

@@ -26,7 +26,7 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   FLOW_PROJECT_TOKEN: ${{ secrets.FLOW_PROJECT_TOKEN }}   # classic PAT: 'project', plus 'repo' for the daily audit
   FLOW_LOG_FORMAT: json
-  FLOW_VERSION: v0.96.4            # init writes the build that wrote this; bump deliberately
+  FLOW_VERSION: v0.96.6            # init writes the build that wrote this; bump deliberately
   # Installs the released binary for FLOW_VERSION and checks it against the
   # release's SHA256SUMS: no Go toolchain, nothing compiled on the runner.
   FLOW_INSTALL: |
